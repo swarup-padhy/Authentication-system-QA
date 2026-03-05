@@ -93,8 +93,6 @@ This repository contains all QA testing artifacts for a MERN-stack Authenticatio
    npm run client   # Frontend on port 5173
    ```
 
-4. **Import Postman collection** and set base URL to `http://localhost:5000/api/auth`
-
 ---
 
 ## Tools Used
