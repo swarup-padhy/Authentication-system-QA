@@ -104,6 +104,4 @@ This repository contains all QA testing artifacts for a MERN-stack Authenticatio
 | Postman | API request execution and test case validation |
 | MongoDB Compass | Database state inspection after test execution |
 | Chrome DevTools | Cookie and response header inspection |
-| OWASP ZAP | Automated vulnerability scanning (referenced) |
-| JMeter / K6 | Performance and concurrent load testing (referenced) |
 | Static Code Review | Controller, model, middleware, and route analysis |
