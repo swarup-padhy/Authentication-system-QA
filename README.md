@@ -2,7 +2,6 @@
 
 **QA Engineer**: Swarup Padhy
 **Test Cycle**: Initial Security & Functional Audit
-**Date**: 2026-03-05
 **Application Under Test**: [MERN Advanced Auth](https://github.com/burakorkmez/mern-advanced-auth) by Burak Orkmez
 
 ---
