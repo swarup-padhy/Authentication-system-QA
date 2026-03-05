@@ -1,7 +1,5 @@
 # Test Plan — Authentication System
 **Document ID**: TP-AUTH-01
-**Version**: 1.0
-**Date**: 2026-03-05
 **Author**: Swarup Padhy (QA Engineer)
 **Status**: Final
 **Project**: MERN Advanced Auth (by Burak Orkmez)
@@ -51,10 +49,10 @@ This document defines the complete testing strategy for the Authentication Syste
 |-----------|-------------|---------------|
 | **Functional** | Verify all auth flows against API specifications | Postman |
 | **Negative** | Invalid inputs, edge payloads, empty bodies | Postman |
-| **Security** | Brute force, injection, enumeration, JWT attacks | Postman, Burp Suite, OWASP ZAP |
+| **Security** | Brute force, injection, enumeration, JWT attacks | Postman |
 | **API** | Status codes, response schema, headers, CORS | Postman, Browser DevTools |
-| **Database** | Hash storage, index checks, field integrity | MongoDB Compass / Shell |
-| **Performance** | Concurrent load, bcrypt stress, Slowloris | JMeter / K6 |
+| **Database** | Hash storage, index checks, field integrity | MongoDB Compass |
+| **Performance** | Concurrent load, bcrypt stress, Slowloris | JMeter |
 | **Static Analysis** | Code-level defect identification without execution | Manual code review |
 
 ---
@@ -65,10 +63,10 @@ This document defines the complete testing strategy for the Authentication Syste
 |-----------|---------|
 | **Runtime** | Node.js with Express.js |
 | **Database** | MongoDB (local or Atlas) |
-| **Frontend** | React/Vite — `http://localhost:5173` (required for CORS) |
+| **Frontend** | React/Vite — `http://localhost:5173` |
 | **Email** | Mailtrap (sandbox SMTP) |
 | **API Base URL** | `http://localhost:5000/api/auth` |
-| **Tools** | Postman, JMeter/K6, OWASP ZAP, Burp Suite, MongoDB Compass |
+| **Tools** | Postman, MongoDB Compass |
 
 ---
 
