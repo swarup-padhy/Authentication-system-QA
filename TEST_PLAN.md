@@ -36,9 +36,8 @@ This document defines the complete testing strategy for the Authentication Syste
 | **Performance** | Load testing, bcrypt CPU impact, Slowloris DoS resilience |
 
 ### 3.2 Out-of-Scope
-- Non-authentication features (product catalog, cart, orders, etc.)
+- Non-authentication features
 - Third-party system outages (e.g., Mailtrap/MongoDB downtime), except for error handling behaviour
-- Frontend UI visual regression testing
 - Automated regression pipeline (CI/CD)
 
 ---
