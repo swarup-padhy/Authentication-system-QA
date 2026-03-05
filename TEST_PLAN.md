@@ -70,36 +70,7 @@ This document defines the complete testing strategy for the Authentication Syste
 
 ---
 
-## 6. Entry & Exit Criteria
-
-### 6.1 Entry Criteria
-- [ ] Backend server is running and accessible at `http://localhost:5000`
-- [ ] MongoDB connection is established and the `users` collection is accessible
-- [ ] Mailtrap credentials are configured in `.env`
-- [ ] Postman collection is imported and environment variables are set
-- [ ] All test cases in `02_TEST_CASES.md` are reviewed and assigned
-
-### 6.2 Exit Criteria
-- [ ] All 150 test cases have been executed with a PASS or FAIL status recorded
-- [ ] All Critical and Major severity bugs are documented with full reproduction steps
-- [ ] No new Critical bugs remain unresolved or unacknowledged
-- [ ] Test summary report is completed and attached
-
----
-
-## 7. Pass / Fail Criteria
-
-| Criteria | Pass | Fail |
-|----------|------|------|
-| HTTP Status Codes | Matches documented expected response | Any deviation from expected code |
-| Response Body | Contains correct JSON structure and message | Missing fields, wrong types, or raw errors |
-| Security Controls | Vulnerability is blocked or handled safely | Exploit succeeds or internal details leak |
-| Data Integrity | DB fields updated correctly after operations | Stale data, missing updates, or data corruption |
-| Performance | Server remains stable; no crashes under load | Server crash, restart, or OOM during test |
-
----
-
-## 8. Test Deliverables
+## 6. Test Deliverables
 
 | Artifact | Location |
 |----------|---------|
@@ -111,7 +82,7 @@ This document defines the complete testing strategy for the Authentication Syste
 
 ---
 
-## 9. Roles & Responsibilities
+## 7. Roles & Responsibilities
 
 | Role | Name | Responsibility |
 |------|------|----------------|
@@ -120,7 +91,7 @@ This document defines the complete testing strategy for the Authentication Syste
 
 ---
 
-## 10. Risk & Mitigation
+## 8. Risk & Mitigation
 
 | # | Risk | Severity | Linked Bug | Mitigation |
 |---|------|----------|-----------|------------|
