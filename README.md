@@ -46,7 +46,7 @@ This repository contains all QA testing artifacts for a **MERN-stack Authenticat
 
 ---
 
-## 📊 Testing Summary
+## Testing Summary
 
 <div align="center">
 
@@ -65,7 +65,7 @@ This repository contains all QA testing artifacts for a **MERN-stack Authenticat
 
 ---
 
-## 🚨 Key Vulnerabilities Identified
+## Key Vulnerabilities Identified
 
 | Bug ID | Severity | Vulnerability |
 |---|---|---|
